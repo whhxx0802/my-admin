@@ -1,3 +1,3 @@
 # my-admin
 
-admin 后台管理系统，vue3+ts射手
+admin 后台管理系统，vue3+ts
