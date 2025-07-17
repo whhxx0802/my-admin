@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "lib": ["esnext", "dom"],
+    "baseUrl": ".", // 解析非相对模块的基地址，默认是当前目录
+    "paths": { //路径映射，相对于baseUrl
+      "@/*": ["src/*"] 
+    },
+    // 类型声明相关配置
+    "types": ["node"],
+  },
+  
+  "include": ["mock/**/*.ts", "src/**/*.ts", "src/**/*.vue", "vite.config.ts", "eslint.config.ts"],
+  "exclude": ["node_modules", "dist"]
+}
